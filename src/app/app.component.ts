@@ -63,7 +63,7 @@ export class AppComponent {
         });
       }
     } else {
-      this.setClickTimeout(this.handleSingleClick);
+      this.setClickTimeout();
     }
   }
 
