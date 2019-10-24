@@ -39,7 +39,7 @@ export class AppComponent {
     } else {
       this.pauseTimer();
       this.stateChanger(true, false);
-      this.timerBtnText = 'START'
+      this.timerBtnText = 'START';
     }
   }
 
@@ -72,8 +72,6 @@ export class AppComponent {
       this.clicks = 0;
     }, 300);
   }
-
-
 }
 
 
